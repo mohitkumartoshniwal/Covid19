@@ -1,0 +1,95 @@
+:root {
+  --mobile-size: 600px
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0 0;
+  padding: 0 0;
+  /* outline: dotted 0.2px teal; */
+}
+
+body {
+  min-height: 100vh;
+}
+
+.App {
+  position: relative;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  max-width: 1442px;
+  margin: 33px auto 33px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.primary_button {
+  border: none;
+  margin: 0;
+}
+
+.subtitle {
+  color: #FA5652;
+  font-family: "Red Hat Display";
+  font-size: 29px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.title {
+  color: #035755;
+  font-family: "Red Hat Display";
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.content {
+  font-family: "Gelion";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+
+}
+
+
+* {
+  outline: .5px solid teal;
+}
+
+
+
+.third_virus {
+  position: absolute;
+  top: 2417px;
+  left: 100px;
+}
+
+
+
+
+
+.ninth_virus {
+  position: absolute;
+  top: 7694.18px;
+  right: 176.74px;
+
+}
+
+.tenth_virus_half {
+  position: absolute;
+  top: 7997.29px;
+  right: 0px;
+
+}
+
+@media only screen and (max-width:600px) {
+  
+}
