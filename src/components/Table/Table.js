@@ -72,7 +72,7 @@ function Table() {
 
                         return (min <= index && index <= max) && (
                             < tr key={country}>
-                                <td ><img className="flag" src={`/images/flags/${image}.svg`} alt="" />
+                                <td ><img className="flag" src={`/images/flags/${image.toLowerCase()}.svg`} alt={country} />
                                 </td>
                                 <td className="country">{country}</td>
                                 <td className="active-cases">{newActiveCases}</td>

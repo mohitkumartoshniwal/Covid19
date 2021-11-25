@@ -101,10 +101,12 @@ tbody tr td{
 
 .active-cases{
     margin-left: 1rem;
+    color: #035755;
 }
 
 .country{
     margin-left: 1rem;
+    color: #13615F;
 }
 
 .table__live-report, tr, td {
