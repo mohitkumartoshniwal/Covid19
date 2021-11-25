@@ -31,7 +31,7 @@
     right: 5%;
 }
 
-@media only screen and (min-width:120px) {
+@media only screen and (min-width:1200px) {
 .contact__title{
     width: 41.3125rem;
     margin: 3rem auto;
