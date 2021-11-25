@@ -27,3 +27,12 @@
 .social_icons button{
     background: transparent;
 }
+
+.logo-flex{
+    text-align: center;
+    margin-top: 1rem;
+}
+
+footer{
+    text-align: center;
+}

@@ -1,9 +1,10 @@
-.single-row{
+.single-row {
     text-align: center;
 }
 
 .row__image {
     max-width: 50%;
+    
 }
 
 .row__text {
@@ -33,11 +34,13 @@
     color: #4B4F51;
     text-align: left;
 }
-.row__text__title__content{
+
+.row__text__title__content {
     margin-left: 0.5rem;
 
 }
-.row__text__title__number{
+
+.row__text__title__number {
     background-color: rgba(250, 86, 82, 0.15);
     color: #FA5652;
     border-radius: 100%;
@@ -46,22 +49,21 @@
 
 
 @media only screen and (min-width:768px) {
-
-    .row{
+    .normal-row {
         display: flex;
         align-items: center;
         justify-content: space-evenly;
-    }
-
-    .normal-row{
         flex-direction: row;
     }
 
-    .reversed-row{
+    .reversed-row {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
         flex-direction: row-reverse;
     }
 
-    .row__image{
+    .row__image {
         /* max-width: 30%; */
         max-height: 50vh;
     }

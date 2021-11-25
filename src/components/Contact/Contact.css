@@ -4,7 +4,7 @@
     font-style: normal;
     font-weight: 500;
     color: #0C6C44;
-    margin: 2rem 0;
+    margin: 3rem 0;
 }
 
 .contact__form {
@@ -17,6 +17,7 @@
     border-radius: 57px;
     width: 19.375rem;
     height: 2.5rem;
+    padding-left: 1rem;
 }
 
 .contact__form__button{

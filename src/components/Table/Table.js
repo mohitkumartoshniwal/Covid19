@@ -49,15 +49,20 @@ function Table() {
             <table className="table__live-report">
                 <thead>
                     <tr>
-                        <th>Live Reports</th>
-                        <th className="table__actions" >
-                            <button className="arrow" onClick={() => { arrowHandler("left") }}>
-                                <img src={`/images/${min > 0 ? 'right_colored_arrow' : 'pagination_arrow'}.svg`} alt="" className={min > 0 ? 'left_colored_arrow' : 'left_arrow'} />
-                            </button>
-                            <div></div>
-                            <button className="arrow" onClick={() => { arrowHandler("right") }}>
-                                <img src="/images/right_colored_arrow.svg" alt="" className="right_arrow" />
-                            </button>
+                        <th>
+                            <div> Live Reports</div>
+                            <div className="table__actions">
+                                <button className="arrow" onClick={() => { arrowHandler("left") }}>
+                                    <img src={`/images/${min > 0 ? 'right_colored_arrow' : 'pagination_arrow'}.svg`} alt="" className={min > 0 ? 'left_colored_arrow' : 'left_arrow'} />
+                                </button>
+                                <div></div>
+                                <button className="arrow" onClick={() => { arrowHandler("right") }}>
+                                    <img src="/images/right_colored_arrow.svg" alt="" className="right_arrow" />
+                                </button>
+                            </div>
+                        </th>
+                        <th className="" >
+
                         </th>
                     </tr>
                 </thead>
@@ -68,9 +73,10 @@ function Table() {
                         return (min <= index && index <= max) && (
                             < tr key={country}>
                                 <td ><img className="flag" src={`/images/flags/${image}.svg`} alt="" />
-                                    {country}</td>
-                                <td>{newActiveCases}</td>
-                                <td><img className="arrow" src={`/images/${arrow ? 'up_arrow' : 'down_arrow'}.svg`} alt="" /> </td>
+                                </td>
+                                <td className="country">{country}</td>
+                                <td className="active-cases">{newActiveCases}</td>
+                                <td ><img className="arrow" src={`/images/${arrow ? 'up_arrow' : 'down_arrow'}.svg`} alt="" /> </td>
                             </tr>
                         )
                     })}

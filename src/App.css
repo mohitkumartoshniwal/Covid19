@@ -39,7 +39,10 @@ body {
   border: none;
   margin: 0;
 } */
-
+.gradient{
+  
+  background-image: linear-gradient(to bottom right,rgb(255 248 248 /65%),rgb(255 248 248 / 65%));
+}
 .subtitle {
   color: #FA5652;
   font-family: "Red Hat Display";
@@ -65,6 +68,9 @@ body {
   font-weight: 400;
   width: 17rem;
   margin: 0 auto 1rem auto; 
+ color: #4B4F51;
+ line-height: 2rem;
+
 }
 
 
