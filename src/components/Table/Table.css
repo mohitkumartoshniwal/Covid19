@@ -75,7 +75,7 @@ tbody tr img{
     width: 5.375rem;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 .table__actions button {
@@ -94,8 +94,9 @@ tbody tr td{
 .table__actions div {
     color: #DEE1ED;
     border: 2.23px solid #DEE1ED;
-    height: 2rem;
-    /* transform: rotate(90deg); */
+    width: 18.58px;
+    margin-bottom: 2px;
+    transform: rotate(90deg);
 
 }
 
