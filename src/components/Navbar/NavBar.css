@@ -1,0 +1,38 @@
+.logo{
+    
+    margin: 1rem 0 0 1rem;
+}
+
+.logo__image {
+    text-align: left;
+}
+
+.nav_menu {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1rem;
+}
+
+.nav_menu__link {
+    text-decoration: none;
+    color: #035755;
+}
+
+.primary_button--nav {
+    color: #FF383D;
+    background: transparent;
+    border: 1px solid #FF383D;
+    padding: 0.5rem 1rem;
+    display: inline-block;
+    border-radius: 3.125rem;
+}
+
+@media only screen and (min-width:768px) {
+
+    .nav-bar {
+        display: flex;
+        justify-content: space-around;
+    }
+}

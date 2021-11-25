@@ -25,7 +25,7 @@ let data = [
 function Contagion() {
     return (
         <>
-            <section id="contagion" className="contagion">
+            <section id="contagion" className="contagion textAlignment">
                 <article className="contagion__description">
                     <h2 className="subtitle">Covid-19</h2>
                     <h1 className="title">

@@ -7,9 +7,9 @@ function Overview() {
 
 
             <section id="overview" className="overview">
-                <img src='/images/overview.svg' alt="" className="overview_image" />
+                <img src='/images/overview.svg' alt="" className="overview__image" />
 
-                <article className="overview__description">
+                <article className="overview__description textAlignment">
                     <h2 className="subtitle"> What Is Covid-19</h2>
                     <h1 className="title">
                         Coronavirus</h1>

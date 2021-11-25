@@ -1,0 +1,14 @@
+.contagion {
+    margin-top: 2rem;
+}
+
+.contagion__description__content {
+}
+
+@media only screen and (min-width:768px) {
+.contagion__card{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+}

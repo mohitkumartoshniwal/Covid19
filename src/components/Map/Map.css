@@ -1,0 +1,14 @@
+.map-container {
+    position: relative;
+}
+
+.map-container div {
+    /* position: absolute;
+    top: 0;
+    bottom: 0; */
+    width: 50%;
+}
+
+.map-container  .mapboxgl-control-container{
+    display: none;
+}

@@ -4,7 +4,7 @@ import './Footer.css'
 function Footer() {
     return (
         <footer>
-            <div className="footer-container">
+            <div className="footer-container ">
                 <div className="logo_with_nav">
                     <div className="logo-flex">
                         <img src='/images/logo.svg' alt="" className="logo__image" />
@@ -32,7 +32,7 @@ function Footer() {
                     </button>
                 </div>
             </div>
-            <small className="copyright">2020 @ All rights reserved by pixelspark.co</small>
+            <small className="copyright ">2020 @ All rights reserved by pixelspark.co</small>
 
         </footer>
     )

@@ -37,7 +37,7 @@ function Prevention() {
     return (
         <>
             <section id="prevention" className="prevention">
-                <article className="prevention__description">
+                <article className="prevention__description textAlignment">
                     <h2 className="subtitle">Covid-19</h2>
                     <h1 className="title">
                         What  should we do

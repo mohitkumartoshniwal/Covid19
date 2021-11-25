@@ -1,0 +1,68 @@
+.table {
+    margin-top: 10rem;
+    position: relative;
+}
+
+.flag {
+    width: 5rem;
+}
+
+.table__live-report {
+    font-family: 'Gelion';
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 500;
+    color: #035755;
+
+}
+
+.table__actions {
+    box-shadow: 0px 5px 50px rgba(87, 1, 0, 0.1);
+    border-radius: 0.385rem;
+    width: 5.375rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.table__actions button {
+    width: 0.45875rem;
+}
+
+.table__live-report thead tr{
+    /* display: flex; */
+}
+.table__actions div {
+    color: #DEE1ED;
+    border: 2.23px solid #DEE1ED;
+    height: 2rem;
+    /* transform: rotate(90deg); */
+
+}
+
+.table__live-report, tr, td {
+
+    /* border: 1px solid black; */
+}
+
+tbody tr{
+    display: flex;
+    justify-content: space-evenly;
+}
+td{
+    padding: 1rem;
+}
+table {
+    border-collapse: collapse;
+}
+
+.right_arrow {}
+
+.arrow {
+    background: transparent;
+    border: none;
+}
+
+.left_colored_arrow {
+    transform: rotate(180deg);
+}

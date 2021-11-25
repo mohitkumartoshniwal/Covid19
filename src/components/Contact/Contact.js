@@ -4,7 +4,7 @@ import './Contact.css'
 function Contact() {
     return (
         <>
-            <section id="contact" className="contact">
+            <section id="contact" className="contact textAlignment">
                 <h1 className="contact__title">Have Question in mind?
                     Let us help you</h1>
                 <form className="contact__form">

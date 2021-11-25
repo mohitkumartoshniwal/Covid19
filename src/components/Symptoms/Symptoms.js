@@ -5,8 +5,8 @@ import './Symptoms.css'
 function Symptoms() {
     return (
         <>
-            <section id="symptoms" className="symptoms">
-                <article className="symptoms__description">
+            <section id="symptoms" className="symptoms ">
+                <article className="symptoms__description textAlignment">
                     <h2 className="subtitle">Covid-19</h2>
                     <h1 className="title">
                         Symptoms

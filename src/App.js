@@ -6,6 +6,7 @@ import HeroSection from './components/HeroSection/HeroSection';
 import NavBar from './components/Navbar/NavBar';
 import Overview from './components/Overview/Overview';
 import Prevention from './components/Prevention/Prevention';
+import Report from './components/Report/Report';
 import Symptoms from './components/Symptoms/Symptoms';
 
 
@@ -18,6 +19,7 @@ function App() {
       <Contagion/>
       <Symptoms/>
       <Prevention/>
+      <Report/>
       <Contact/>
       <h1>Treatment</h1>
       <Footer/>

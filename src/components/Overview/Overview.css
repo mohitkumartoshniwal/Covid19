@@ -1,0 +1,38 @@
+.overview__image {
+    max-width: 100%;
+}
+
+.overview__description .subtitle{
+    margin-top: 0;
+}
+
+.primary_button--overview {
+    color: #FA5652;
+    background: rgba(250, 86, 82, 0.15);
+    border: none;
+    padding: 0.5rem 1rem;
+    display: inline-block;
+    border-radius: 3.125rem;
+    margin-top: 1rem;
+}
+
+.first_virus_half, .second_virus{
+    display: none;
+}
+
+@media only screen and (min-width:600px) {
+  .overview{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+  }
+
+  .overview__image{
+      max-width: 50%;
+  }
+
+  .overview__description{
+      text-align: left;
+      width: 50%;
+  }
+}

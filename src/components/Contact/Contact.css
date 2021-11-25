@@ -1,0 +1,31 @@
+.contact__title {
+    font-family: "Gelion";
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 500;
+    color: #0C6C44;
+    margin: 2rem 0;
+}
+
+.contact__form {
+    display: inline-block;
+    position: relative;
+}
+
+.contact__form__email {
+    box-shadow: 0px 8px 80px rgb(0 0 0 / 6%);
+    border-radius: 57px;
+    width: 19.375rem;
+    height: 2.5rem;
+}
+
+.contact__form__button{
+    border-radius: 9.8125rem;
+    background-color: #F44A45;
+    color: white;
+    border: none;
+    padding: 0.3rem 1rem;
+    position: absolute;
+    top: 20%;
+    right: 5%;
+}

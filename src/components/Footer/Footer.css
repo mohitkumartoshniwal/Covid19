@@ -1,0 +1,29 @@
+.footer_nav_menu {
+    display: flex;
+    margin: 1rem auto;
+    justify-content: space-around;
+}
+
+.footer_nav_menu__link{
+    text-decoration: none;
+    color: #035755;
+}
+
+.social_icons{
+    border: none;
+    display: flex;
+    margin: 1rem auto;
+    justify-content: space-around;
+
+}
+
+.social_icons button {
+    background: transparent;
+    margin-bottom: 4.1875rem;
+    border: none;
+    margin: auto 0;
+}
+
+.social_icons button{
+    background: transparent;
+}
