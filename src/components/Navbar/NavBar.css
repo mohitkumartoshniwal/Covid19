@@ -18,7 +18,24 @@
 .nav_menu__link {
     text-decoration: none;
     color: #035755;
+    position: relative;
 }
+
+.nav_menu__link:hover {
+    color: #FB4C47;
+  
+  }
+  
+  
+  .nav_menu__link:hover:after {
+    content: '·';
+    font-size: 50px;
+    color: #FA5652;
+    position: absolute;
+    top: -50%;
+    left: 50%;
+  
+  }
 
 .primary_button--nav {
     color: #FF383D;

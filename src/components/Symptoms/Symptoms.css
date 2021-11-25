@@ -1,14 +1,37 @@
-.symptoms__image{
+.symptoms__image {
     max-width: 90%;
 }
 
-.left_leaf{
+.left_leaf {
     display: none;
 }
 
-.right_leaf{
+.right_leaf {
     display: none;
 }
 
-.symptoms__description__content{
+
+@media only screen and (min-width:1200px) {
+
+    .symptoms__description__content {
+        width: 44.75rem;
+
+    }
+
+    .symptoms{
+        position: relative;
+    }
+    .left_leaf {
+        display: inline;
+        position: absolute;
+        top: 770px;
+        left: 91px;
+    }
+    
+    .right_leaf {
+        display: inline;
+        position: absolute;
+        top: 937px;
+        right: 37.94px
+    }
 }

@@ -5,6 +5,11 @@
     width: 20.75rem;
     margin: 2rem auto;
     background: white;
+    z-index: 100;
+}
+
+.card:hover {
+    border-bottom: 6px #FA5652 solid;
 }
 
 .card__title {

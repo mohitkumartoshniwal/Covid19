@@ -4,7 +4,7 @@
 
 .row__image {
     max-width: 50%;
-    
+
 }
 
 .row__text {
@@ -66,5 +66,21 @@
     .row__image {
         /* max-width: 30%; */
         max-height: 50vh;
+    }
+}
+
+@media only screen and (min-width:1200px) {
+
+    .row__text__content {
+        width: 33.25rem;
+    }
+
+    .row__text__title {
+        margin-left: -3.5rem;
+        justify-content: flex-start;
+    }
+
+    .row__text__title__content{
+        margin-left: 1rem;
     }
 }

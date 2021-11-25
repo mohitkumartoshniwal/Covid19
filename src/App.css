@@ -14,7 +14,7 @@ body {
   min-height: 100vh;
 }
 
-.textAlignment{
+.textAlignment {
   text-align: center;
 }
 
@@ -39,10 +39,11 @@ body {
   border: none;
   margin: 0;
 } */
-.gradient{
-  
-  background-image: linear-gradient(to bottom right,rgb(255 248 248 /65%),rgb(255 248 248 / 65%));
+.gradient {
+
+  background-image: linear-gradient(to bottom right, rgb(255 248 248 /65%), rgb(255 248 248 / 65%));
 }
+
 .subtitle {
   color: #FA5652;
   font-family: "Red Hat Display";
@@ -67,15 +68,15 @@ body {
   font-style: normal;
   font-weight: 400;
   width: 17rem;
-  margin: 0 auto 1rem auto; 
- color: #4B4F51;
- line-height: 2rem;
+  margin: 0 auto 1rem auto;
+  color: #4B4F51;
+  line-height: 2rem;
 
 }
 
 
 
-.third_virus,.ninth_virus,.tenth_virus_half{
+.third_virus, .ninth_virus, .tenth_virus_half {
   display: none;
 }
 
@@ -83,4 +84,41 @@ body {
   /* *{
     font-size: 18px;
   } */
+}
+
+@media only screen and (min-width:120px) {
+
+  /* *{
+    font-size: 18px;
+  } */
+  .content {
+    font-size: 18px;
+  }
+
+  .App {
+    position: relative;
+  }
+
+  /* .third_virus {
+    display: inline;
+    position: absolute;
+    top: 2417px;
+    left: 100px;
+  } */
+
+  .ninth_virus {
+    display: inline;
+    position: absolute;
+    top: 7694.18px;
+    right: 176.74px;
+
+  }
+
+  .tenth_virus_half {
+    display: inline;
+    position: absolute;
+    top: 7997.29px;
+    right: 0px;
+
+  }
 }

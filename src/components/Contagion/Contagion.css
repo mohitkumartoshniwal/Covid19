@@ -2,13 +2,21 @@
     margin-top: 2rem;
 }
 
-.contagion__description__content {
-}
+.contagion__description__content {}
 
 @media only screen and (min-width:768px) {
-.contagion__card{
-    display: flex;
-    flex-wrap: wrap;
+    .contagion__card {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
 }
 
+
+@media only screen and (min-width:1200px) {
+
+    .contagion__description__content  {
+        width: 35.625rem;
+
+    }
 }

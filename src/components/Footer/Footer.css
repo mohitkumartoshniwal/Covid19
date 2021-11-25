@@ -4,12 +4,12 @@
     justify-content: space-around;
 }
 
-.footer_nav_menu__link{
+.footer_nav_menu__link {
     text-decoration: none;
     color: #035755;
 }
 
-.social_icons{
+.social_icons {
     border: none;
     display: flex;
     margin: 1rem auto;
@@ -24,15 +24,21 @@
     margin: auto 0;
 }
 
-.social_icons button{
+.social_icons button {
     background: transparent;
 }
 
-.logo-flex{
+.logo-flex {
     text-align: center;
     margin-top: 1rem;
 }
 
-footer{
+footer {
     text-align: center;
+}
+
+@media only screen and (min-width:120px) {
+    .footer-container {
+        display: flex;
+    }
 }
