@@ -1,5 +1,5 @@
 import React from 'react'
-import Row from './Row/Row'
+import Row from '../subComponents/Row/Row'
 import './Prevention.css'
 let data = [
     {

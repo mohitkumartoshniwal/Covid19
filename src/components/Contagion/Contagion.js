@@ -1,5 +1,5 @@
 import React from 'react'
-import Card from '../Card/Card'
+import Card from '../subComponents/Card/Card'
 import './Contagion.css'
 
 let data = [
