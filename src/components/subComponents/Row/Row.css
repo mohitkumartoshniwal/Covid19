@@ -1,0 +1,91 @@
+.single-row {
+    text-align: center;
+}
+
+.row__image {
+    max-width: 50%;
+
+}
+
+.row__text {
+    text-align: left;
+
+}
+
+.row__text__title {
+    display: flex;
+    margin-left: -5.55rem;
+    justify-content: center;
+}
+
+.row__text__title {
+    font-family: "Gelion";
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 3rem;
+    color: #035755;
+
+}
+
+.row__text__content {
+    width: 17.25rem;
+    margin: 0 auto;
+    color: #4B4F51;
+    text-align: left;
+}
+
+.row__text__title__content {
+    margin-left: 0.5rem;
+
+}
+
+.row__text__title__number {
+    background-color: rgba(250, 86, 82, 0.15);
+    color: #FA5652;
+    border-radius: 100%;
+    padding: 0 0.5rem;
+}
+
+
+@media only screen and (min-width:768px) {
+    .normal-row {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: row;
+    }
+
+    .reversed-row {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: row-reverse;
+    }
+
+    .row__image {
+        max-height: 50vh;
+    }
+}
+
+@media only screen and (min-width:1200px) {
+
+    .row__text__content {
+        width: 33.25rem;
+    }
+
+    .row__text__title {
+        margin-left: -3.5rem;
+        justify-content: flex-start;
+    }
+
+    .row__text__title__content{
+        margin-left: 1rem;
+    }
+}
+
+@media only screen and (min-width:600px) {
+    .row__image{
+        max-height: 100vh;
+    }
+}
