@@ -1,7 +1,7 @@
 import React from 'react'
 import './Report.css'
 // import Map from '../Map/Map'
-import Table from '../subComponents/Table/Table'
+import Table from '../Table/Table'
 
 function Report() {
     return (
