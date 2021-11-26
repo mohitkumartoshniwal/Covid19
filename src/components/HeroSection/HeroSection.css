@@ -25,7 +25,6 @@
 }
 
 .hero__image {
-
     max-width: 100%;
     margin-top: 1.5rem;
 }
@@ -66,5 +65,14 @@
     .hero__description__content {
         margin-top: 2rem;
         line-height: 190%;
+    }
+}
+
+
+
+@media only screen and (min-width:1200px) {
+
+    .hero__image {
+        max-width: 100%;
     }
 }

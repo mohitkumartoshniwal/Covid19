@@ -1,5 +1,12 @@
+.report img{
+    max-width: 100%;
+}
 @media only screen and (min-width:1000px) {
-    .reports {
+    .report {
         display: flex;
+    }
+
+    .map{
+        width: 70%;
     }
 }

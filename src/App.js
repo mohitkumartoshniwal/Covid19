@@ -23,7 +23,6 @@ function App() {
       <Prevention />
       <Report />
       <Contact />
-      {/* <h1>Treatment</h1> */}
       <Footer />
       <img src="/images/third_virus.svg" alt="" className="third_virus" />
 

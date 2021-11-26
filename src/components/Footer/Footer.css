@@ -37,8 +37,40 @@ footer {
     text-align: center;
 }
 
+.logo__text{
+    color: #035755;
+
+}
+
 @media only screen and (min-width:1200px) {
     .footer-container {
         display: flex;
+    }
+
+    .logo-flex{
+        display: flex;
+        align-items: center;
+        margin-left: 15vw;
+    }
+
+    .logo__text{
+        margin-left: .5rem;
+    }
+
+    .logo_with_nav{
+        display: flex;
+        align-items: center;
+    }
+
+    .footer_nav_menu__link{
+        margin: 1rem 1rem;
+    }
+
+    .footer_nav_menu{
+        margin-left: 10vw;
+    }
+
+    .social_icons button{
+        margin: 1rem;
     }
 }

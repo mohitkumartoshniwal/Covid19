@@ -1,46 +1,19 @@
-:root {
-  --mobile-size: 600px
-}
-
 * {
   box-sizing: border-box;
   margin: 0 0;
   padding: 0 0;
-  /* text-align: center; */
-  /* outline: dotted 0.2px teal; */
 }
 
 body {
   min-height: 100vh;
+  background: linear-gradient(360deg, rgba(255, 241, 241, 0.5) 0%, rgba(255, 241, 241, 0) 108.69%);
 }
 
 .textAlignment {
   text-align: center;
 }
 
-/* .App {
-  position: relative;
-} */
-
-/* .flex {
-  display: flex;
-  align-items: center;
-} */
-
-/* .container {
-  max-width: 1442px;
-  margin: 33px auto 33px auto;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-} */
-
-/* .primary_button {
-  border: none;
-  margin: 0;
-} */
 .gradient {
-
   background-image: linear-gradient(to bottom right, rgb(255 248 248 /65%), rgb(255 248 248 / 65%));
 }
 
@@ -51,7 +24,6 @@ body {
   font-style: normal;
   font-weight: 700;
   margin-top: 4rem;
-
 }
 
 .title {
@@ -71,26 +43,14 @@ body {
   margin: 0 auto 1rem auto;
   color: #4B4F51;
   line-height: 2rem;
-
 }
-
-
 
 .third_virus, .ninth_virus, .tenth_virus_half {
   display: none;
 }
 
-@media only screen and (max-width:650px) {
-  /* *{
-    font-size: 18px;
-  } */
-}
-
 @media only screen and (min-width:120px) {
 
-  /* *{
-    font-size: 18px;
-  } */
   .content {
     font-size: 18px;
   }
@@ -99,17 +59,26 @@ body {
     position: relative;
   }
 
-  /* .third_virus {
+}
+
+@media only screen and (min-width:1500px) {
+
+  .third_virus {
     display: inline;
     position: absolute;
     top: 2417px;
     left: 100px;
-  } */
+  }
 
+
+}
+
+@media only screen and (min-width:1900px) {
+ 
   .ninth_virus {
     display: inline;
     position: absolute;
-    top: 7694.18px;
+    top: 6826.18px;
     right: 176.74px;
 
   }
@@ -117,8 +86,8 @@ body {
   .tenth_virus_half {
     display: inline;
     position: absolute;
-    top: 7997.29px;
+    top: 6865.29px;
     right: 0px;
-
   }
+
 }

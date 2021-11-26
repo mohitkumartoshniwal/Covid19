@@ -20,7 +20,7 @@
     padding-left: 1rem;
 }
 
-.contact__form__button{
+.contact__form__button {
     border-radius: 9.8125rem;
     background-color: #F44A45;
     color: white;
@@ -32,9 +32,23 @@
 }
 
 @media only screen and (min-width:1200px) {
-.contact__title{
-    width: 41.3125rem;
-    margin: 3rem auto;
-}
+    .contact__title {
+        width: 41.3125rem;
+        margin: 3rem auto;
+    }
 
+    .contact__form__email{
+        width: 49.375rem;
+        height: 7.125rem;
+        font-size: 22px;
+    }
+
+    .contact__form__button{
+        font-size: 22px;
+        padding: 26px 81px;
+    }
+
+    .contact__form__email {
+        padding-left: 3rem;
+    }
 }
